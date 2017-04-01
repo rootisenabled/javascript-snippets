@@ -12,6 +12,6 @@ function partApp(fn) {
 
 var partApp = (fn, ...args) => {
 	(...fnArgs) => {
-		fn(...[..args, ...fnArgs]);
+		fn(...[...args, ...fnArgs]);
 	}
 }

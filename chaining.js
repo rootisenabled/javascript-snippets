@@ -1,4 +1,4 @@
-class Widget() {
+class Widget {
 	constructor(isHidden) {
 		this.isHidden = isHidden;
 	}
